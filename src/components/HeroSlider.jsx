@@ -60,9 +60,9 @@ const HeroSlider = () => {
   }, [currentSlide]);
 
   return (
-    <section className="slider-container h-[400px] sm:h-[450px] md:h-[500px] relative overflow-hidden bg-gray-100">
+    <section className="slider-container h-[400px] sm:h-[450px] md:h-[500px] relative overflow-hidden bg-gray-100 max-w-7xl mx-auto ">
       <div
-        className="slider flex transition-transform duration-500 ease-in-out h-full"
+        className="slider flex transition-transform duration-500 ease-in-out h-full "
         ref={slideRef}
         onMouseEnter={() => clearInterval(intervalRef.current)}
         onMouseLeave={() => (intervalRef.current = setInterval(nextSlide, 5000))}
@@ -74,7 +74,7 @@ const HeroSlider = () => {
               style={{ backgroundImage: `url('${slide.bgImage}')` }}
               className="h-full w-full absolute bg-cover bg-center"
             ></div>
-            <div className="relative z-20 h-full flex items-center">
+            <div className="relative z-20 h-full flex items-center px-8 sm:px-6 lg:px-[100px]">
               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
                 <div className="max-w-md sm:max-w-lg">
                   <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-3 sm:mb-4">
