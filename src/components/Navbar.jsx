@@ -1,18 +1,26 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import Button from "../components/ui/Button";
+import { AuthContext } from "../providers/AuthProvider";
+import { signOut } from "firebase/auth";
+import { auth } from "../firebase/firebase.config";
 
 const Navbar = () => {
-  const user = {
-    name: "John Doe",
-    photoURL: "https://randomuser.me/api/portraits/men/75.jpg",
-  }; // Replace with Firebase user
+  const { user, loading } = useContext(AuthContext);
+  console.log("🧠 Firebase User:", user);
+console.log("📷 Google Photo URL:", user?.photoURL);
+
   const navigate = useNavigate();
   const [menuOpen, setMenuOpen] = useState(false);
 
-  const handleLogout = () => {
-    alert("Logged out");
-    navigate("/login");
+  const handleLogout = async () => {
+    try {
+      await signOut(auth);
+      alert("Logged out");
+      navigate("/login");
+    } catch (err) {
+      alert("Logout failed");
+    }
   };
 
   return (
@@ -28,54 +36,78 @@ const Navbar = () => {
             <span className="hidden sm:inline">AppStore</span>
           </div>
 
-          {/* Desktop Nav Links */}
+          {/* Desktop Nav */}
           <div className="hidden md:flex items-center space-x-6 text-lg">
             <NavLink
-              to="/apps"
+              to="/"
               className={({ isActive }) =>
                 isActive
                   ? "font-bold text-blue-500 border-b-2 border-blue-500"
                   : "hover:text-blue-500 transition"
               }
             >
-              Apps
+              Apps   
             </NavLink>
             
-          </div>
-
-          {/* Profile + Logout (Desktop/Tablet) */}
-          <div className="hidden md:flex items-center gap-4">
-            {user && (
-              <> 
+            {!loading && user && (
               <NavLink
-              to="/profile"
-              className={({ isActive }) =>
-                isActive
-                  ? "font-bold text-blue-500 border-b-2 border-blue-500"
-                  : "hover:text-blue-500 transition"
-              }
-            >
-              My Profile
-            </NavLink>
-                <img
-                  src={user.photoURL}
-                  alt="Profile"
-                  className="w-8 h-8 rounded-full"
-                  title={user.name}
-                />
-                <Button onClick={handleLogout}>Logout</Button>
-              </>
+                to="/profile"
+                className={({ isActive }) =>
+                  isActive
+                    ? "font-bold text-blue-500 border-b-2 border-blue-500"
+                    : "hover:text-blue-500 transition"
+                }
+              >
+                My Profile
+              </NavLink>
             )}
           </div>
 
-          {/* Hamburger Button (Mobile) */}
+          {/* Profile and Auth Buttons */}
+          <div className="hidden md:flex items-center gap-4">
+            {!loading && user ? (
+              <>
+                {/* <img
+                  src={user.photoURL || `https://i.pravatar.cc/40?u=${user.uid}`}
+                  onError={(e) =>
+                    (e.target.src = "https://i.pravatar.cc/40?u=default")
+                  }
+                  alt="Profile"
+                  className="w-8 h-8 rounded-full"
+                  title={user.displayName || "User"}
+                /> */}
+                <img
+  src={user.photoURL}
+  alt="Profile"
+  referrerPolicy="no-referrer" // ✅ prevents Google image block
+  className="w-8 h-8 rounded-full object-cover"
+  title={user.displayName || "User"}
+  onError={(e) => {
+    e.target.src = "https://i.pravatar.cc/40?u=default";
+  }}
+/>
+
+                <span className="hidden sm:inline text-sm">
+                  {user.displayName}
+                </span>
+                <Button onClick={handleLogout}>Logout</Button>
+              </>
+            ) : (
+              <Button onClick={() => navigate("/login")}>Login</Button>
+            )}
+          </div>
+
+          {/* Mobile Menu Toggle */}
           <div className="md:hidden flex items-center gap-3">
-            {user && (
+            {!loading && user && (
               <img
-                src={user.photoURL}
+                src={user.photoURL || `https://i.pravatar.cc/40?u=${user.uid}`}
+                onError={(e) =>
+                  (e.target.src = "https://i.pravatar.cc/40?u=default")
+                }
                 alt="Profile"
                 className="w-8 h-8 rounded-full"
-                title={user.name}
+                title={user.displayName || "User"}
               />
             )}
             <button
@@ -101,19 +133,22 @@ const Navbar = () => {
             >
               Apps
             </NavLink>
-            <NavLink
-              to="/profile"
-              onClick={() => setMenuOpen(false)}
-              className={({ isActive }) =>
-                isActive
-                  ? "font-bold text-blue-500 border-b border-blue-500"
-                  : "hover:text-blue-500 transition"
-              }
-            >
-              My Profile
-            </NavLink>
 
-            {user ? (
+            {!loading && user && (
+              <NavLink
+                to="/profile"
+                onClick={() => setMenuOpen(false)}
+                className={({ isActive }) =>
+                  isActive
+                    ? "font-bold text-blue-500 border-b border-blue-500"
+                    : "hover:text-blue-500 transition"
+                }
+              >
+                My Profile
+              </NavLink>
+            )}
+
+            {!loading && user ? (
               <Button
                 className="mx-4"
                 onClick={() => {
@@ -136,6 +171,7 @@ const Navbar = () => {
             )}
           </div>
         )}
+        
       </div>
     </nav>
   );
