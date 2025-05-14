@@ -1,0 +1,287 @@
+
+
+
+[
+
+    {
+        "id": "app001",
+        "name": "Programming Hero",
+        "developer": "Programming Hero Ltd.",
+        "thumbnail": "https://ibb.co/fVBW1GPC",
+        "banner": "https://ibb.co/fVBW1GPC",
+        "downloads": 3500000,
+        "category": "Education",
+        "rating": 4.8,
+        "description": "Fun and interactive way to learn programming.",
+        "features": [
+            "Interactive coding lessons",
+            "Real-world projects",
+            "Gamified learning experience"
+        ],
+        "reviews": [
+            {
+                "user": "coder_nadia",
+                "rating": 5,
+                "comment": "Best app for beginners!"
+            }
+        ]
+    },
+    {
+        "id": "app002",
+        "name": "Duolingo",
+        "developer": "Duolingo Inc.",
+        "thumbnail": "https://ibb.co/MDqb1f17",
+        "banner": "https://i.ibb.co/JcZ7TTm/duolingo-banner.jpg",
+        "downloads": 10000000,
+        "category": "Education",
+        "rating": 4.7,
+        "description": "Learn languages for free in a fun way.",
+        "features": [
+            "Multiple language support",
+            "Fun mini-games",
+            "Progress tracking"
+        ],
+        "reviews": [
+            {
+                "user": "language_lover",
+                "rating": 5,
+                "comment": "Learning Spanish has never been easier!"
+            }
+        ]
+    },
+    {
+        "id": "app003",
+        "name": "Khan Academy",
+        "developer": "Khan Academy",
+        "thumbnail": "https://ibb.co/6JppqXnf",
+        "banner": "https://i.ibb.co/PMnzJty/khan-banner.jpg",
+        "downloads": 7000000,
+        "category": "Education",
+        "rating": 4.9,
+        "description": "Free educational courses for all levels.",
+        "features": [
+            "Video lessons",
+            "Practice exercises",
+            "Progress reports"
+        ],
+        "reviews": [
+            {
+                "user": "student101",
+                "rating": 5,
+                "comment": "Amazing content, and completely free!"
+            }
+        ]
+    },
+    {
+        "id": "app004",
+        "name": "Quizlet",
+        "developer": "Quizlet Inc.",
+        "thumbnail": "https://ibb.co/zhRDqtFn",
+        "banner": "https://i.ibb.co/2P8yQr7/quizlet-banner.jpg",
+        "downloads": 4500000,
+        "category": "Education",
+        "rating": 4.6,
+        "description": "Study with flashcards and games.",
+        "features": [
+            "Custom flashcards",
+            "Study modes",
+            "Interactive quizzes"
+        ],
+        "reviews": [
+            {
+                "user": "learner4life",
+                "rating": 4,
+                "comment": "Great for memorizing terms fast."
+            }
+        ]
+    },
+
+   
+    {
+        "id": "app005",
+        "name": "Notion",
+        "developer": "Notion Labs Inc.",
+        "thumbnail": "https://i.ibb.co/tBsVb5z/notion-thumb.jpg",
+        "banner": "https://i.ibb.co/Z1svf4c/notion-banner.jpg",
+        "downloads": 8000000,
+        "category": "Productivity",
+        "rating": 4.6,
+        "description": "All-in-one workspace for notes and project management.",
+        "features": [
+            "Rich text editing",
+            "Task tracking",
+            "Team collaboration"
+        ],
+        "reviews": [
+            {
+                "user": "organizer_pro",
+                "rating": 4,
+                "comment": "Great for managing my projects and life."
+            }
+        ]
+    },
+    {
+        "id": "app006",
+        "name": "Trello",
+        "developer": "Atlassian",
+        "thumbnail": "https://i.ibb.co/0yGzFZ7/trello-thumb.jpg",
+        "banner": "https://i.ibb.co/f8y8NjR/trello-banner.jpg",
+        "downloads": 9000000,
+        "category": "Productivity",
+        "rating": 4.5,
+        "description": "Organize anything with anyone, anywhere.",
+        "features": [
+            "Drag-and-drop task boards",
+            "Checklists",
+            "Team assignments"
+        ],
+        "reviews": [
+            {
+                "user": "teamleader",
+                "rating": 4,
+                "comment": "Perfect for keeping teams organized."
+            }
+        ]
+    },
+    {
+        "id": "app007",
+        "name": "Google Keep",
+        "developer": "Google LLC",
+        "thumbnail": "https://i.ibb.co/XsJ0RwW/keep-thumb.jpg",
+        "banner": "https://i.ibb.co/N7nS3vw/keep-banner.jpg",
+        "downloads": 15000000,
+        "category": "Productivity",
+        "rating": 4.7,
+        "description": "Quickly capture what’s on your mind.",
+        "features": [
+            "Voice memos",
+            "Color-coded notes",
+            "Sync across devices"
+        ],
+        "reviews": [
+            {
+                "user": "note_taker",
+                "rating": 5,
+                "comment": "Lightweight and very useful for daily tasks."
+            }
+        ]
+    },
+    {
+        "id": "app008",
+        "name": "Evernote",
+        "developer": "Evernote Corporation",
+        "thumbnail": "https://i.ibb.co/ds1vWJzQ/card-1.jpg",
+        "banner": "https://i.ibb.co/kGbyrLf/evernote-banner.jpg",
+        "downloads": 12000000,
+        "category": "Productivity",
+        "rating": 4.3,
+        "description": "Notes, tasks, and schedules in one app.",
+        "features": [
+            "Web clipping",
+            "Notebook organization",
+            "Calendar integration"
+        ],
+        "reviews": [
+            {
+                "user": "efficient_user",
+                "rating": 4,
+                "comment": "Useful for managing work-related notes."
+            }
+        ]
+    },
+
+   
+    {
+        "id": "app009",
+        "name": "Clash Royale",
+        "developer": "Supercell",
+        "thumbnail": "https://i.ibb.co/QvzzP2v/clash-thumb.jpg",
+        "banner": "https://i.ibb.co/PzRMF1R/clash-banner.jpg",
+        "downloads": 50000000,
+        "category": "Gaming",
+        "rating": 4.5,
+        "description": "Real-time multiplayer battle game.",
+        "features": [
+            "PvP battles",
+            "Clan wars",
+            "Strategy gameplay"
+        ],
+        "reviews": [
+            {
+                "user": "gamer123",
+                "rating": 5,
+                "comment": "Addictive and challenging. Love it!"
+            }
+        ]
+    },
+    {
+        "id": "app010",
+        "name": "Among Us",
+        "developer": "Innersloth LLC",
+        "thumbnail": "https://i.ibb.co/qyMgfLf/amongus-thumb.jpg",
+        "banner": "https://i.ibb.co/w68J4cn/amongus-banner.jpg",
+        "downloads": 85000000,
+        "category": "Gaming",
+        "rating": 4.4,
+        "description": "Multiplayer social deduction game.",
+        "features": [
+            "Custom lobbies",
+            "Funny avatars",
+            "Cross-platform play"
+        ],
+        "reviews": [
+            {
+                "user": "detective_gamer",
+                "rating": 4,
+                "comment": "Fun with friends and intense deduction."
+            }
+        ]
+    },
+    {
+        "id": "app011",
+        "name": "PUBG Mobile",
+        "developer": "Tencent Games",
+        "thumbnail": "https://i.ibb.co/LzW3JLz/pubg-thumb.jpg",
+        "banner": "https://i.ibb.co/xzCsmL4/pubg-banner.jpg",
+        "downloads": 100000000,
+        "category": "Gaming",
+        "rating": 4.6,
+        "description": "Battle Royale experience on mobile.",
+        "features": [
+            "Realistic graphics",
+            "Various modes",
+            "Voice chat"
+        ],
+        "reviews": [
+            {
+                "user": "pro_shooter",
+                "rating": 5,
+                "comment": "Best mobile FPS game I've played."
+            }
+        ]
+    },
+    {
+        "id": "app012",
+        "name": "Candy Crush Saga",
+        "developer": "King",
+        "thumbnail": "https://i.ibb.co/TLmk3qX/candy-thumb.jpg",
+        "banner": "https://i.ibb.co/D81L5z1/candy-banner.jpg",
+        "downloads": 500000000,
+        "category": "Gaming",
+        "rating": 4.2,
+        "description": "Match 3 puzzle game fun for all ages.",
+        "features": [
+            "Hundreds of levels",
+            "Colorful visuals",
+            "Daily rewards"
+        ],
+        "reviews": [
+            {
+                "user": "puzzle_fan",
+                "rating": 4,
+                "comment": "Very addictive and relaxing!"
+            }
+        ]
+    }
+]
+
