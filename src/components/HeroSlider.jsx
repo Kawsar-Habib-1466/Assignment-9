@@ -1,7 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react';
-import Slide1 from '@/assets/Slide-1.jpg';
+
 import Slide2 from '@/assets/Slide-2.jpg';
 import Slide3 from '@/assets/Slide-3.jpg';
+import Slide4 from '@/assets/Slide-4.jpg';
 
 import Next from '@/assets/next.png';
 import Left from '@/assets/left-arrow.png';
@@ -11,7 +12,7 @@ const slides = [
     title: 'Discover Amazing Apps',
     description: 'Explore thousands of apps designed to make your life easier, more productive, and more fun.',
     buttonText: 'Explore Now',
-    bgImage: Slide1,
+    bgImage: Slide4,
     gradient: 'from-primary/90'
   },
   {

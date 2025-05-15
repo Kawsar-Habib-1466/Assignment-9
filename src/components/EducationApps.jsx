@@ -1,10 +1,10 @@
 import React from 'react';
-import appsData from '@/data/apps_data.json'; // Adjust if your alias doesn't point to src
+import appsData from '@/data/apps_data.json'; // Adjust if alias doesn't point to src
 import { Link } from 'react-router-dom';
 
-const ProductivityApps = () => {
-  const productivityApps = appsData
-  .filter(app => app.category === 'Productivity')
+const EducationApps = () => {
+  const educationApps = appsData
+  .filter(app => app.category === 'Education')
   .slice(0, 4); // ✅ Limit to 4
 
   return (
@@ -12,8 +12,8 @@ const ProductivityApps = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="flex justify-between items-center mb-8">
-          <h2 className="text-2xl font-bold text-gray-900">Productivity</h2>
-          <Link to="/category/Productivity" className="text-primary hover:text-primary/80 font-medium flex items-center">
+          <h2 className="text-2xl font-bold text-gray-900">Education</h2>
+          <Link to="/category/Education" className="text-primary hover:text-primary/80 font-medium flex items-center">
             View all
             <span className="ml-1">
               <i className="ri-arrow-right-line" />
@@ -23,7 +23,7 @@ const ProductivityApps = () => {
 
         {/* App Cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {productivityApps.map((app) => (
+          {educationApps.map((app) => (
             <div
               key={app.id}
               className="app-card bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden transition-transform hover:-translate-y-1 hover:shadow-lg"
@@ -32,6 +32,7 @@ const ProductivityApps = () => {
                 <img
                   src={app.thumbnail}
                   alt={app.name}
+                  loading="lazy"
                   className="w-full h-full object-cover object-top"
                 />
                 <div className="absolute top-3 right-3 bg-white/90 text-xs font-medium px-2 py-1 rounded-full">
@@ -79,4 +80,4 @@ const ProductivityApps = () => {
   );
 };
 
-export default ProductivityApps;
+export default EducationApps;

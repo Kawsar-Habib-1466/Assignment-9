@@ -7,6 +7,9 @@ import Home from "./pages/Home";
 import Login from "./pages/Login";
 import AppDetails from "./pages/AppDetails"; // 👈 create this if not yet
 import PrivateRoute from "./components/PrivateRoute"; // 👈 fixed path
+import CategoryViewAll from "./pages/CategoryViewAll";
+import Footer from "./components/Footer";
+import MyProfile from "./pages/MyProfile";
 
 const App = () => {
   return (
@@ -26,8 +29,11 @@ const App = () => {
               </PrivateRoute>
             }
           />
+          <Route path="/category/:categoryName" element={<CategoryViewAll />} />
+          <Route path="/profile" element={<MyProfile />} />
         </Routes>
       </main>
+      <Footer />
     </BrowserRouter>
   );
 };

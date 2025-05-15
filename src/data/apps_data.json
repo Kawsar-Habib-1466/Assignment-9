@@ -1,287 +1,347 @@
-
-
-
 [
-
     {
-        "id": "app001",
-        "name": "Programming Hero",
-        "developer": "Programming Hero Ltd.",
-        "thumbnail": "https://ibb.co/fVBW1GPC",
-        "banner": "https://ibb.co/fVBW1GPC",
-        "downloads": 3500000,
-        "category": "Education",
-        "rating": 4.8,
-        "description": "Fun and interactive way to learn programming.",
-        "features": [
-            "Interactive coding lessons",
-            "Real-world projects",
-            "Gamified learning experience"
-        ],
-        "reviews": [
-            {
-                "user": "coder_nadia",
-                "rating": 5,
-                "comment": "Best app for beginners!"
-            }
-        ]
+      "id": "app001",
+      "name": "Notion",
+      "developer": "Dev Inc.",
+      "downloads": "100.0K",
+      "category": "Education",
+      "rating": 4.0,
+      "description": "Organize notes, tasks, and databases in one place.",
+      "features": [
+        "Feature A",
+        "Feature B",
+        "Feature C"
+      ],
+      "reviews": [
+        {
+          "user": "user0",
+          "rating": 1,
+          "comment": "user0 says: Great app!"
+        }
+      ],
+      "thumbnail": "https://i.ibb.co/wNrjk1SQ/Adobe-Stock-361713715.jpg",
+      "banner": "https://i.ibb.co/wNrjk1SQ/Adobe-Stock-361713715.jpg"
     },
     {
-        "id": "app002",
-        "name": "Duolingo",
-        "developer": "Duolingo Inc.",
-        "thumbnail": "https://ibb.co/MDqb1f17",
-        "banner": "https://i.ibb.co/JcZ7TTm/duolingo-banner.jpg",
-        "downloads": 10000000,
-        "category": "Education",
-        "rating": 4.7,
-        "description": "Learn languages for free in a fun way.",
-        "features": [
-            "Multiple language support",
-            "Fun mini-games",
-            "Progress tracking"
-        ],
-        "reviews": [
-            {
-                "user": "language_lover",
-                "rating": 5,
-                "comment": "Learning Spanish has never been easier!"
-            }
-        ]
+      "id": "app002",
+      "name": "Duolingo",
+      "developer": "Dev Inc.",
+      "downloads": "200.0K",
+      "category": "Education",
+      "rating": 4.1,
+      "description": "Learn languages with fun, bite-sized lessons.",
+      "features": [
+        "Feature A",
+        "Feature B",
+        "Feature C"
+      ],
+      "reviews": [
+        {
+          "user": "user1",
+          "rating": 2,
+          "comment": "user1 says: Great app!"
+        }
+      ],
+      "thumbnail": "https://i.ibb.co/35CjdG5z/Adobe-Stock-849512730-Preview.jpg",
+      "banner": "https://i.ibb.co/35CjdG5z/Adobe-Stock-849512730-Preview.jpg"
     },
     {
-        "id": "app003",
-        "name": "Khan Academy",
-        "developer": "Khan Academy",
-        "thumbnail": "https://ibb.co/6JppqXnf",
-        "banner": "https://i.ibb.co/PMnzJty/khan-banner.jpg",
-        "downloads": 7000000,
-        "category": "Education",
-        "rating": 4.9,
-        "description": "Free educational courses for all levels.",
-        "features": [
-            "Video lessons",
-            "Practice exercises",
-            "Progress reports"
-        ],
-        "reviews": [
-            {
-                "user": "student101",
-                "rating": 5,
-                "comment": "Amazing content, and completely free!"
-            }
-        ]
+      "id": "app003",
+      "name": "Khan Academy",
+      "developer": "Dev Inc.",
+      "downloads": "300.0K",
+      "category": "Education",
+      "rating": 4.2,
+      "description": "Free world-class education for anyone, anywhere.",
+      "features": [
+        "Feature A",
+        "Feature B",
+        "Feature C"
+      ],
+      "reviews": [
+        {
+          "user": "user2",
+          "rating": 3,
+          "comment": "user2 says: Great app!"
+        }
+      ],
+      "thumbnail": "https://i.ibb.co/Ngzqrmj9/Adobe-Stock-883663016.jpg",
+      "banner": "https://i.ibb.co/Ngzqrmj9/Adobe-Stock-883663016.jpg"
     },
     {
-        "id": "app004",
-        "name": "Quizlet",
-        "developer": "Quizlet Inc.",
-        "thumbnail": "https://ibb.co/zhRDqtFn",
-        "banner": "https://i.ibb.co/2P8yQr7/quizlet-banner.jpg",
-        "downloads": 4500000,
-        "category": "Education",
-        "rating": 4.6,
-        "description": "Study with flashcards and games.",
-        "features": [
-            "Custom flashcards",
-            "Study modes",
-            "Interactive quizzes"
-        ],
-        "reviews": [
-            {
-                "user": "learner4life",
-                "rating": 4,
-                "comment": "Great for memorizing terms fast."
-            }
-        ]
-    },
-
-   
-    {
-        "id": "app005",
-        "name": "Notion",
-        "developer": "Notion Labs Inc.",
-        "thumbnail": "https://i.ibb.co/tBsVb5z/notion-thumb.jpg",
-        "banner": "https://i.ibb.co/Z1svf4c/notion-banner.jpg",
-        "downloads": 8000000,
-        "category": "Productivity",
-        "rating": 4.6,
-        "description": "All-in-one workspace for notes and project management.",
-        "features": [
-            "Rich text editing",
-            "Task tracking",
-            "Team collaboration"
-        ],
-        "reviews": [
-            {
-                "user": "organizer_pro",
-                "rating": 4,
-                "comment": "Great for managing my projects and life."
-            }
-        ]
+      "id": "app004",
+      "name": "Quizlet",
+      "developer": "Dev Inc.",
+      "downloads": "400.0K",
+      "category": "Education",
+      "rating": 4.3,
+      "description": "Study smarter with flashcards and learning tools.",
+      "features": [
+        "Feature A",
+        "Feature B",
+        "Feature C"
+      ],
+      "reviews": [
+        {
+          "user": "user3",
+          "rating": 4,
+          "comment": "user3 says: Great app!"
+        }
+      ],
+      "thumbnail": "https://i.ibb.co/993ps5ym/Adobe-Stock-1146639476-Editorial-Use-Only.jpg",
+      "banner": "https://i.ibb.co/993ps5ym/Adobe-Stock-1146639476-Editorial-Use-Only.jpg"
     },
     {
-        "id": "app006",
-        "name": "Trello",
-        "developer": "Atlassian",
-        "thumbnail": "https://i.ibb.co/0yGzFZ7/trello-thumb.jpg",
-        "banner": "https://i.ibb.co/f8y8NjR/trello-banner.jpg",
-        "downloads": 9000000,
-        "category": "Productivity",
-        "rating": 4.5,
-        "description": "Organize anything with anyone, anywhere.",
-        "features": [
-            "Drag-and-drop task boards",
-            "Checklists",
-            "Team assignments"
-        ],
-        "reviews": [
-            {
-                "user": "teamleader",
-                "rating": 4,
-                "comment": "Perfect for keeping teams organized."
-            }
-        ]
+      "id": "app005",
+      "name": "Programming Hero",
+      "developer": "Dev Inc.",
+      "downloads": "500.0K",
+      "category": "Education",
+      "rating": 4.4,
+      "description": "Interactive learning platform for aspiring coders.",
+      "features": [
+        "Feature A",
+        "Feature B",
+        "Feature C"
+      ],
+      "reviews": [
+        {
+          "user": "user4",
+          "rating": 5,
+          "comment": "user4 says: Great app!"
+        }
+      ],
+      "thumbnail": "https://i.ibb.co/270tdFzr/Adobe-Stock-1409202620-Preview-Editorial-Use-Only.jpg",
+      "banner": "https://i.ibb.co/270tdFzr/Adobe-Stock-1409202620-Preview-Editorial-Use-Only.jpg"
     },
     {
-        "id": "app007",
-        "name": "Google Keep",
-        "developer": "Google LLC",
-        "thumbnail": "https://i.ibb.co/XsJ0RwW/keep-thumb.jpg",
-        "banner": "https://i.ibb.co/N7nS3vw/keep-banner.jpg",
-        "downloads": 15000000,
-        "category": "Productivity",
-        "rating": 4.7,
-        "description": "Quickly capture what’s on your mind.",
-        "features": [
-            "Voice memos",
-            "Color-coded notes",
-            "Sync across devices"
-        ],
-        "reviews": [
-            {
-                "user": "note_taker",
-                "rating": 5,
-                "comment": "Lightweight and very useful for daily tasks."
-            }
-        ]
+      "id": "app006",
+      "name": "Trello",
+      "developer": "Dev Inc.",
+      "downloads": "600.0K",
+      "category": "Productivity",
+      "rating": 4.0,
+      "description": "Project boards to manage work with your team.",
+      "features": [
+        "Feature A",
+        "Feature B",
+        "Feature C"
+      ],
+      "reviews": [
+        {
+          "user": "user5",
+          "rating": 1,
+          "comment": "user5 says: Great app!"
+        }
+      ],
+      "thumbnail": "https://i.ibb.co/XZbMmnZK/Adobe-Stock-1256208995.jpg",
+      "banner": "https://i.ibb.co/XZbMmnZK/Adobe-Stock-1256208995.jpg"
     },
     {
-        "id": "app008",
-        "name": "Evernote",
-        "developer": "Evernote Corporation",
-        "thumbnail": "https://i.ibb.co/ds1vWJzQ/card-1.jpg",
-        "banner": "https://i.ibb.co/ds1vWJzQ/card-1.jpg",
-        "downloads": 12000000,
-        "category": "Productivity",
-        "rating": 4.3,
-        "description": "Notes, tasks, and schedules in one app.",
-        "features": [
-            "Web clipping",
-            "Notebook organization",
-            "Calendar integration"
-        ],
-        "reviews": [
-            {
-                "user": "efficient_user",
-                "rating": 4,
-                "comment": "Useful for managing work-related notes."
-            }
-        ]
-    },
-
-   
-    {
-        "id": "app009",
-        "name": "Clash Royale",
-        "developer": "Supercell",
-        "thumbnail": "https://i.ibb.co/QvzzP2v/clash-thumb.jpg",
-        "banner": "https://i.ibb.co/PzRMF1R/clash-banner.jpg",
-        "downloads": 50000000,
-        "category": "Gaming",
-        "rating": 4.5,
-        "description": "Real-time multiplayer battle game.",
-        "features": [
-            "PvP battles",
-            "Clan wars",
-            "Strategy gameplay"
-        ],
-        "reviews": [
-            {
-                "user": "gamer123",
-                "rating": 5,
-                "comment": "Addictive and challenging. Love it!"
-            }
-        ]
+      "id": "app007",
+      "name": "Google Keep",
+      "developer": "Dev Inc.",
+      "downloads": "700.0K",
+      "category": "Productivity",
+      "rating": 4.1,
+      "description": "Capture ideas quickly and organize them visually.",
+      "features": [
+        "Feature A",
+        "Feature B",
+        "Feature C"
+      ],
+      "reviews": [
+        {
+          "user": "user6",
+          "rating": 2,
+          "comment": "user6 says: Great app!"
+        }
+      ],
+      "thumbnail": "https://i.ibb.co/jvdSgt25/Adobe-Stock-1283586072-Editorial-Use-Only.jpg",
+      "banner": "https://i.ibb.co/jvdSgt25/Adobe-Stock-1283586072-Editorial-Use-Only.jpg"
     },
     {
-        "id": "app010",
-        "name": "Among Us",
-        "developer": "Innersloth LLC",
-        "thumbnail": "https://i.ibb.co/qyMgfLf/amongus-thumb.jpg",
-        "banner": "https://i.ibb.co/w68J4cn/amongus-banner.jpg",
-        "downloads": 85000000,
-        "category": "Gaming",
-        "rating": 4.4,
-        "description": "Multiplayer social deduction game.",
-        "features": [
-            "Custom lobbies",
-            "Funny avatars",
-            "Cross-platform play"
-        ],
-        "reviews": [
-            {
-                "user": "detective_gamer",
-                "rating": 4,
-                "comment": "Fun with friends and intense deduction."
-            }
-        ]
+      "id": "app008",
+      "name": "Evernote",
+      "developer": "Dev Inc.",
+      "downloads": "800.0K",
+      "category": "Productivity",
+      "rating": 4.2,
+      "description": "Jot notes, scan documents, and manage your life.",
+      "features": [
+        "Feature A",
+        "Feature B",
+        "Feature C"
+      ],
+      "reviews": [
+        {
+          "user": "user7",
+          "rating": 3,
+          "comment": "user7 says: Great app!"
+        }
+      ],
+      "thumbnail": "https://i.ibb.co/CpYcG3dB/Adobe-Stock-1145212763.jpg",
+      "banner": "https://i.ibb.co/CpYcG3dB/Adobe-Stock-1145212763.jpg"
     },
     {
-        "id": "app011",
-        "name": "PUBG Mobile",
-        "developer": "Tencent Games",
-        "thumbnail": "https://i.ibb.co/LzW3JLz/pubg-thumb.jpg",
-        "banner": "https://i.ibb.co/xzCsmL4/pubg-banner.jpg",
-        "downloads": 100000000,
-        "category": "Gaming",
-        "rating": 4.6,
-        "description": "Battle Royale experience on mobile.",
-        "features": [
-            "Realistic graphics",
-            "Various modes",
-            "Voice chat"
-        ],
-        "reviews": [
-            {
-                "user": "pro_shooter",
-                "rating": 5,
-                "comment": "Best mobile FPS game I've played."
-            }
-        ]
+      "id": "app009",
+      "name": "Slack",
+      "developer": "Dev Inc.",
+      "downloads": "900.0K",
+      "category": "Productivity",
+      "rating": 4.3,
+      "description": "Team communication and collaboration in one app.",
+      "features": [
+        "Feature A",
+        "Feature B",
+        "Feature C"
+      ],
+      "reviews": [
+        {
+          "user": "user8",
+          "rating": 4,
+          "comment": "user8 says: Great app!"
+        }
+      ],
+      "thumbnail": "https://i.ibb.co/kgymzgc6/Adobe-Stock-618138347.jpg",
+      "banner": "https://i.ibb.co/kgymzgc6/Adobe-Stock-618138347.jpg"
     },
     {
-        "id": "app012",
-        "name": "Candy Crush Saga",
-        "developer": "King",
-        "thumbnail": "https://i.ibb.co/TLmk3qX/candy-thumb.jpg",
-        "banner": "https://i.ibb.co/TLmk3qX/candy-thumb.jpg",
-        "downloads": 500000000,
-        "category": "Gaming",
-        "rating": 4.2,
-        "description": "Match 3 puzzle game fun for all ages.",
-        "features": [
-            "Hundreds of levels",
-            "Colorful visuals",
-            "Daily rewards"
-        ],
-        "reviews": [
-            {
-                "user": "puzzle_fan",
-                "rating": 4,
-                "comment": "Very addictive and relaxing!"
-            }
-        ]
+      "id": "app010",
+      "name": "ClickUp",
+      "developer": "Dev Inc.",
+      "downloads": "1.0M",
+      "category": "Productivity",
+      "rating": 4.4,
+      "description": "Plan and track projects with powerful workflows.",
+      "features": [
+        "Feature A",
+        "Feature B",
+        "Feature C"
+      ],
+      "reviews": [
+        {
+          "user": "user9",
+          "rating": 5,
+          "comment": "user9 says: Great app!"
+        }
+      ],
+      "thumbnail": "https://i.ibb.co/TBmn85PR/Adobe-Stock-693874386.jpg",
+      "banner": "https://i.ibb.co/TBmn85PR/Adobe-Stock-693874386.jpg"
+    },
+    {
+      "id": "app011",
+      "name": "Clash Royale",
+      "developer": "Dev Inc.",
+      "downloads": "1.1M",
+      "category": "Gaming",
+      "rating": 4.0,
+      "description": "Real-time strategy card game from Supercell.",
+      "features": [
+        "Feature A",
+        "Feature B",
+        "Feature C"
+      ],
+      "reviews": [
+        {
+          "user": "user10",
+          "rating": 1,
+          "comment": "user10 says: Great app!"
+        }
+      ],
+      "thumbnail": "https://i.ibb.co/NgzdqwZt/Adobe-Stock-632235823.jpg",
+      "banner": "https://i.ibb.co/NgzdqwZt/Adobe-Stock-632235823.jpg"
+    },
+    {
+      "id": "app012",
+      "name": "Among Us",
+      "developer": "Dev Inc.",
+      "downloads": "1.2M",
+      "category": "Gaming",
+      "rating": 4.1,
+      "description": "Play with friends in this online social deduction game.",
+      "features": [
+        "Feature A",
+        "Feature B",
+        "Feature C"
+      ],
+      "reviews": [
+        {
+          "user": "user11",
+          "rating": 2,
+          "comment": "user11 says: Great app!"
+        }
+      ],
+      "thumbnail": "https://i.ibb.co/tMsFV1zm/card-4.jpg",
+      "banner": "https://i.ibb.co/tMsFV1zm/card-4.jpg"
+    },
+    {
+      "id": "app013",
+      "name": "PUBG Mobile",
+      "developer": "Dev Inc.",
+      "downloads": "1.3M",
+      "category": "Gaming",
+      "rating": 4.2,
+      "description": "Battle royale shooter on mobile with realistic graphics.",
+      "features": [
+        "Feature A",
+        "Feature B",
+        "Feature C"
+      ],
+      "reviews": [
+        {
+          "user": "user12",
+          "rating": 3,
+          "comment": "user12 says: Great app!"
+        }
+      ],
+      "thumbnail": "https://i.ibb.co/rfLLXd71/card-3.jpg",
+      "banner": "https://i.ibb.co/rfLLXd71/card-3.jpg"
+    },
+    {
+      "id": "app014",
+      "name": "Candy Crush",
+      "developer": "Dev Inc.",
+      "downloads": "1.4M",
+      "category": "Gaming",
+      "rating": 4.3,
+      "description": "Match colorful candies in this addicting puzzle game.",
+      "features": [
+        "Feature A",
+        "Feature B",
+        "Feature C"
+      ],
+      "reviews": [
+        {
+          "user": "user13",
+          "rating": 4,
+          "comment": "user13 says: Great app!"
+        }
+      ],
+      "thumbnail": "https://i.ibb.co/rGngp3pH/card-2.jpg",
+      "banner": "https://i.ibb.co/rGngp3pH/card-2.jpg"
+    },
+    {
+      "id": "app015",
+      "name": "Asphalt 9",
+      "developer": "Dev Inc.",
+      "downloads": "1.5M",
+      "category": "Gaming",
+      "rating": 4.4,
+      "description": "High-speed racing with real cars and locations.",
+      "features": [
+        "Feature A",
+        "Feature B",
+        "Feature C"
+      ],
+      "reviews": [
+        {
+          "user": "user14",
+          "rating": 5,
+          "comment": "user14 says: Great app!"
+        }
+      ],
+      "thumbnail": "https://i.ibb.co/ds1vWJzQ/card-1.jpg",
+      "banner": "https://i.ibb.co/ds1vWJzQ/card-1.jpg"
     }
-]
-
+  ]

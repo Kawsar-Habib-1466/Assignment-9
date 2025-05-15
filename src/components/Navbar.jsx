@@ -29,37 +29,41 @@ console.log("📷 Google Photo URL:", user?.photoURL);
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div
-            className="flex items-center gap-2 text-2xl font-bold cursor-pointer"
+            className="flex items-center  text-2xl font-bold cursor-pointer"
             onClick={() => navigate("/")}
           >
-            <img src="/vite.svg" alt="logo" className="w-8 h-8" />
-            <span className="hidden sm:inline">AppStore</span>
+            <img src="/Untitled design.svg" alt="logo" className="w-[100px] h-[100px]" />
+            <span className="hidden sm:inline  ml-[-17px] text-[25px] font-bold text-[#013269]">AppHub</span>
           </div>
 
           {/* Desktop Nav */}
           <div className="hidden md:flex items-center space-x-6 text-lg">
-            <NavLink
-              to="/"
-              className={({ isActive }) =>
-                isActive
-                  ? "font-bold text-blue-500 border-b-2 border-blue-500"
-                  : "hover:text-blue-500 transition"
-              }
-            >
-              Apps   
-            </NavLink>
-            
-            {!loading && user && (
-              <NavLink
-                to="/profile"
-                className={({ isActive }) =>
-                  isActive
-                    ? "font-bold text-blue-500 border-b-2 border-blue-500"
-                    : "hover:text-blue-500 transition"
-                }
-              >
-                My Profile
-              </NavLink>
+          <NavLink
+  to="/"
+  className={({ isActive }) =>
+    `px-4 py-2 rounded-full text-sm font-semibold transition duration-300 ${
+      isActive
+        ? "bg-gradient-to-r from-blue-500 to-purple-500 text-white shadow-lg"
+        : "text-gray-700 hover:text-white hover:bg-gradient-to-r hover:from-blue-500 hover:to-purple-500"
+    }`
+  }
+>
+  <i className="ri-apps-2-line mr-1" /> Apps
+</NavLink>
+
+{!loading && user && (
+  <NavLink
+    to="/profile"
+    className={({ isActive }) =>
+      `px-4 py-2 rounded-full text-sm font-semibold transition duration-300 ${
+        isActive
+          ? "bg-gradient-to-r from-green-500 to-lime-500 text-white shadow-lg"
+          : "text-gray-700 hover:text-white hover:bg-gradient-to-r hover:from-green-500 hover:to-lime-500"
+      }`
+    }
+  >
+    <i className="ri-user-3-line mr-1" /> My Profile
+  </NavLink>
             )}
           </div>
 
