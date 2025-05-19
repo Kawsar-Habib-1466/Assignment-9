@@ -4,7 +4,7 @@ import Button from "../components/ui/Button";
 import { AuthContext } from "../providers/AuthProvider";
 import { signOut } from "firebase/auth";
 import { auth } from "../firebase/firebase.config";
-
+import { toast } from 'react-toastify';
 const Navbar = () => {
   const { user, loading } = useContext(AuthContext);
   console.log("🧠 Firebase User:", user);
@@ -16,10 +16,10 @@ console.log("📷 Google Photo URL:", user?.photoURL);
   const handleLogout = async () => {
     try {
       await signOut(auth);
-      alert("Logged out");
+      toast.success("Logged out");
       navigate("/login");
     } catch (err) {
-      alert("Logout failed");
+      toast.error("Logout failed");
     }
   };
 
@@ -127,7 +127,7 @@ console.log("📷 Google Photo URL:", user?.photoURL);
         {menuOpen && (
           <div className="md:hidden flex flex-col gap-4 py-4 text-lg">
             <NavLink
-              to="/apps"
+              to="/"
               onClick={() => setMenuOpen(false)}
               className={({ isActive }) =>
                 isActive
@@ -135,7 +135,7 @@ console.log("📷 Google Photo URL:", user?.photoURL);
                   : "hover:text-blue-500 transition"
               }
             >
-              Apps
+              Apps 
             </NavLink>
 
             {!loading && user && (

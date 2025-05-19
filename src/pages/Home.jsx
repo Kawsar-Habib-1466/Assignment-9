@@ -5,7 +5,7 @@ import ProductivityApps from '../components/ProductivityApps';
 import EditorsChoice from '../components/EditorsChoice';
 import Footer from '../components/Footer';
 import EducationApps from '../components/EducationApps';
-
+import { toast } from 'react-toastify';
 const Home = () => {
   return (
     <div>
@@ -16,7 +16,8 @@ const Home = () => {
       <ProductivityApps />
      
       <EditorsChoice />
-        {/* Other sections here */}
+      toast.success('Welcome to AppStore!');
+            {/* Other sections here */}
       
     </div>
   );

@@ -7,7 +7,7 @@ import {
 } from 'firebase/auth';
 import { useNavigate, useLocation, Link } from 'react-router-dom';
 import logo from '/public/Logo.svg';
-
+import { toast } from 'react-toastify';
 const Login = () => {
   const [form, setForm] = useState({ email: '', password: '' });
   const navigate = useNavigate();
@@ -22,10 +22,10 @@ const Login = () => {
     e.preventDefault();
     try {
       await signInWithEmailAndPassword(auth, form.email, form.password);
-      alert('Login successful!');
+      toast.success('Login successful!');
       navigate(from, { replace: true });
     } catch (err) {
-      alert(err.message);
+      toast.error(err.message);
     }
   };
 
@@ -34,10 +34,10 @@ const Login = () => {
   const handleGoogleLogin = async () => {
     try {
       await signInWithPopup(auth, provider);
-      alert('Logged in with Google!');
+      toast.success('Logged in with Google!');
       navigate(from, { replace: true });
     } catch (error) {
-      alert(error.message);
+      toast.error(error.message);
     }
   };
 
@@ -79,7 +79,9 @@ const Login = () => {
         >
           Login
         </button>
-
+        <Link to="/forgot-password" className="text-blue-500 text-sm block text-right mb-2">
+  Forgot password?
+</Link>
         <button
           type="button"
           onClick={handleGoogleLogin}

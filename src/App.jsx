@@ -10,7 +10,10 @@ import CategoryViewAll from "./pages/CategoryViewAll";
 import Footer from "./components/Footer";
 import MyProfile from "./pages/MyProfile";
 import NotFound from "./pages/NotFound";
-
+import ForgotPassword from "./pages/ForgotPassword";
+import EditorsChoice from "./pages/EditorsChoice";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 // Define valid route patterns
 const routeDefinitions = [
   { path: "/" },
@@ -50,9 +53,12 @@ const AppRoutes = () => {
           <Route path="/category/:categoryName" element={<CategoryViewAll />} />
           <Route path="/profile" element={<MyProfile />} />
           <Route path="*" element={<NotFound />} /> {/* Catch-all for 404 */}
+          <Route path="/forgot-password" element={<ForgotPassword />} />
+          <Route path="/editors-choice" element={<EditorsChoice />} />
         </Routes>
       </main>
       {!hideFooter && <Footer />}
+      <ToastContainer position="top-right" autoClose={3000} />
     </>
   );
 };

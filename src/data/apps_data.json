@@ -1,347 +1,362 @@
 [
-    {
-      "id": "app001",
-      "name": "Notion",
-      "developer": "Dev Inc.",
-      "downloads": "100.0K",
-      "category": "Education",
-      "rating": 4.0,
-      "description": "Organize notes, tasks, and databases in one place.",
-      "features": [
-        "Feature A",
-        "Feature B",
-        "Feature C"
-      ],
-      "reviews": [
-        {
-          "user": "user0",
-          "rating": 1,
-          "comment": "user0 says: Great app!"
-        }
-      ],
-      "thumbnail": "https://i.ibb.co/wNrjk1SQ/Adobe-Stock-361713715.jpg",
-      "banner": "https://i.ibb.co/wNrjk1SQ/Adobe-Stock-361713715.jpg"
-    },
-    {
-      "id": "app002",
-      "name": "Duolingo",
-      "developer": "Dev Inc.",
-      "downloads": "200.0K",
-      "category": "Education",
-      "rating": 4.1,
-      "description": "Learn languages with fun, bite-sized lessons.",
-      "features": [
-        "Feature A",
-        "Feature B",
-        "Feature C"
-      ],
-      "reviews": [
-        {
-          "user": "user1",
-          "rating": 2,
-          "comment": "user1 says: Great app!"
-        }
-      ],
-      "thumbnail": "https://i.ibb.co/35CjdG5z/Adobe-Stock-849512730-Preview.jpg",
-      "banner": "https://i.ibb.co/35CjdG5z/Adobe-Stock-849512730-Preview.jpg"
-    },
-    {
-      "id": "app003",
-      "name": "Khan Academy",
-      "developer": "Dev Inc.",
-      "downloads": "300.0K",
-      "category": "Education",
-      "rating": 4.2,
-      "description": "Free world-class education for anyone, anywhere.",
-      "features": [
-        "Feature A",
-        "Feature B",
-        "Feature C"
-      ],
-      "reviews": [
-        {
-          "user": "user2",
-          "rating": 3,
-          "comment": "user2 says: Great app!"
-        }
-      ],
-      "thumbnail": "https://i.ibb.co/Ngzqrmj9/Adobe-Stock-883663016.jpg",
-      "banner": "https://i.ibb.co/Ngzqrmj9/Adobe-Stock-883663016.jpg"
-    },
-    {
-      "id": "app004",
-      "name": "Quizlet",
-      "developer": "Dev Inc.",
-      "downloads": "400.0K",
-      "category": "Education",
-      "rating": 4.3,
-      "description": "Study smarter with flashcards and learning tools.",
-      "features": [
-        "Feature A",
-        "Feature B",
-        "Feature C"
-      ],
-      "reviews": [
-        {
-          "user": "user3",
-          "rating": 4,
-          "comment": "user3 says: Great app!"
-        }
-      ],
-      "thumbnail": "https://i.ibb.co/993ps5ym/Adobe-Stock-1146639476-Editorial-Use-Only.jpg",
-      "banner": "https://i.ibb.co/993ps5ym/Adobe-Stock-1146639476-Editorial-Use-Only.jpg"
-    },
-    {
-      "id": "app005",
-      "name": "Programming Hero",
-      "developer": "Dev Inc.",
-      "downloads": "500.0K",
-      "category": "Education",
-      "rating": 4.4,
-      "description": "Interactive learning platform for aspiring coders.",
-      "features": [
-        "Feature A",
-        "Feature B",
-        "Feature C"
-      ],
-      "reviews": [
-        {
-          "user": "user4",
-          "rating": 5,
-          "comment": "user4 says: Great app!"
-        }
-      ],
-      "thumbnail": "https://i.ibb.co/270tdFzr/Adobe-Stock-1409202620-Preview-Editorial-Use-Only.jpg",
-      "banner": "https://i.ibb.co/270tdFzr/Adobe-Stock-1409202620-Preview-Editorial-Use-Only.jpg"
-    },
-    {
-      "id": "app006",
-      "name": "Trello",
-      "developer": "Dev Inc.",
-      "downloads": "600.0K",
-      "category": "Productivity",
-      "rating": 4.0,
-      "description": "Project boards to manage work with your team.",
-      "features": [
-        "Feature A",
-        "Feature B",
-        "Feature C"
-      ],
-      "reviews": [
-        {
-          "user": "user5",
-          "rating": 1,
-          "comment": "user5 says: Great app!"
-        }
-      ],
-      "thumbnail": "https://i.ibb.co/XZbMmnZK/Adobe-Stock-1256208995.jpg",
-      "banner": "https://i.ibb.co/XZbMmnZK/Adobe-Stock-1256208995.jpg"
-    },
-    {
-      "id": "app007",
-      "name": "Google Keep",
-      "developer": "Dev Inc.",
-      "downloads": "700.0K",
-      "category": "Productivity",
-      "rating": 4.1,
-      "description": "Capture ideas quickly and organize them visually.",
-      "features": [
-        "Feature A",
-        "Feature B",
-        "Feature C"
-      ],
-      "reviews": [
-        {
-          "user": "user6",
-          "rating": 2,
-          "comment": "user6 says: Great app!"
-        }
-      ],
-      "thumbnail": "https://i.ibb.co/jvdSgt25/Adobe-Stock-1283586072-Editorial-Use-Only.jpg",
-      "banner": "https://i.ibb.co/jvdSgt25/Adobe-Stock-1283586072-Editorial-Use-Only.jpg"
-    },
-    {
-      "id": "app008",
-      "name": "Evernote",
-      "developer": "Dev Inc.",
-      "downloads": "800.0K",
-      "category": "Productivity",
-      "rating": 4.2,
-      "description": "Jot notes, scan documents, and manage your life.",
-      "features": [
-        "Feature A",
-        "Feature B",
-        "Feature C"
-      ],
-      "reviews": [
-        {
-          "user": "user7",
-          "rating": 3,
-          "comment": "user7 says: Great app!"
-        }
-      ],
-      "thumbnail": "https://i.ibb.co/CpYcG3dB/Adobe-Stock-1145212763.jpg",
-      "banner": "https://i.ibb.co/CpYcG3dB/Adobe-Stock-1145212763.jpg"
-    },
-    {
-      "id": "app009",
-      "name": "Slack",
-      "developer": "Dev Inc.",
-      "downloads": "900.0K",
-      "category": "Productivity",
-      "rating": 4.3,
-      "description": "Team communication and collaboration in one app.",
-      "features": [
-        "Feature A",
-        "Feature B",
-        "Feature C"
-      ],
-      "reviews": [
-        {
-          "user": "user8",
-          "rating": 4,
-          "comment": "user8 says: Great app!"
-        }
-      ],
-      "thumbnail": "https://i.ibb.co/kgymzgc6/Adobe-Stock-618138347.jpg",
-      "banner": "https://i.ibb.co/kgymzgc6/Adobe-Stock-618138347.jpg"
-    },
-    {
-      "id": "app010",
-      "name": "ClickUp",
-      "developer": "Dev Inc.",
-      "downloads": "1.0M",
-      "category": "Productivity",
-      "rating": 4.4,
-      "description": "Plan and track projects with powerful workflows.",
-      "features": [
-        "Feature A",
-        "Feature B",
-        "Feature C"
-      ],
-      "reviews": [
-        {
-          "user": "user9",
-          "rating": 5,
-          "comment": "user9 says: Great app!"
-        }
-      ],
-      "thumbnail": "https://i.ibb.co/TBmn85PR/Adobe-Stock-693874386.jpg",
-      "banner": "https://i.ibb.co/TBmn85PR/Adobe-Stock-693874386.jpg"
-    },
-    {
-      "id": "app011",
-      "name": "Clash Royale",
-      "developer": "Dev Inc.",
-      "downloads": "1.1M",
-      "category": "Gaming",
-      "rating": 4.0,
-      "description": "Real-time strategy card game from Supercell.",
-      "features": [
-        "Feature A",
-        "Feature B",
-        "Feature C"
-      ],
-      "reviews": [
-        {
-          "user": "user10",
-          "rating": 1,
-          "comment": "user10 says: Great app!"
-        }
-      ],
-      "thumbnail": "https://i.ibb.co/NgzdqwZt/Adobe-Stock-632235823.jpg",
-      "banner": "https://i.ibb.co/NgzdqwZt/Adobe-Stock-632235823.jpg"
-    },
-    {
-      "id": "app012",
-      "name": "Among Us",
-      "developer": "Dev Inc.",
-      "downloads": "1.2M",
-      "category": "Gaming",
-      "rating": 4.1,
-      "description": "Play with friends in this online social deduction game.",
-      "features": [
-        "Feature A",
-        "Feature B",
-        "Feature C"
-      ],
-      "reviews": [
-        {
-          "user": "user11",
-          "rating": 2,
-          "comment": "user11 says: Great app!"
-        }
-      ],
-      "thumbnail": "https://i.ibb.co/tMsFV1zm/card-4.jpg",
-      "banner": "https://i.ibb.co/tMsFV1zm/card-4.jpg"
-    },
-    {
-      "id": "app013",
-      "name": "PUBG Mobile",
-      "developer": "Dev Inc.",
-      "downloads": "1.3M",
-      "category": "Gaming",
-      "rating": 4.2,
-      "description": "Battle royale shooter on mobile with realistic graphics.",
-      "features": [
-        "Feature A",
-        "Feature B",
-        "Feature C"
-      ],
-      "reviews": [
-        {
-          "user": "user12",
-          "rating": 3,
-          "comment": "user12 says: Great app!"
-        }
-      ],
-      "thumbnail": "https://i.ibb.co/rfLLXd71/card-3.jpg",
-      "banner": "https://i.ibb.co/rfLLXd71/card-3.jpg"
-    },
-    {
-      "id": "app014",
-      "name": "Candy Crush",
-      "developer": "Dev Inc.",
-      "downloads": "1.4M",
-      "category": "Gaming",
-      "rating": 4.3,
-      "description": "Match colorful candies in this addicting puzzle game.",
-      "features": [
-        "Feature A",
-        "Feature B",
-        "Feature C"
-      ],
-      "reviews": [
-        {
-          "user": "user13",
-          "rating": 4,
-          "comment": "user13 says: Great app!"
-        }
-      ],
-      "thumbnail": "https://i.ibb.co/rGngp3pH/card-2.jpg",
-      "banner": "https://i.ibb.co/rGngp3pH/card-2.jpg"
-    },
-    {
-      "id": "app015",
-      "name": "Asphalt 9",
-      "developer": "Dev Inc.",
-      "downloads": "1.5M",
-      "category": "Gaming",
-      "rating": 4.4,
-      "description": "High-speed racing with real cars and locations.",
-      "features": [
-        "Feature A",
-        "Feature B",
-        "Feature C"
-      ],
-      "reviews": [
-        {
-          "user": "user14",
-          "rating": 5,
-          "comment": "user14 says: Great app!"
-        }
-      ],
-      "thumbnail": "https://i.ibb.co/ds1vWJzQ/card-1.jpg",
-      "banner": "https://i.ibb.co/ds1vWJzQ/card-1.jpg"
-    }
-  ]
+  {
+    "id": "app001",
+    "name": "Notion",
+    "developer": "Dev Inc.",
+    "downloads": "100.0K",
+    "category": "Education",
+    "rating": 4.0,
+    "description": "Organize notes, tasks, and databases in one place.",
+    "features": [
+      "Feature A",
+      "Feature B",
+      "Feature C"
+    ],
+    "reviews": [
+      {
+        "user": "user0",
+        "rating": 1,
+        "comment": "user0 says: Great app!"
+      }
+    ],
+    "thumbnail": "https://i.ibb.co/wNrjk1SQ/Adobe-Stock-361713715.jpg",
+    "banner": "https://i.ibb.co/wNrjk1SQ/Adobe-Stock-361713715.jpg",
+    "editorsChoice": false
+  },
+  {
+    "id": "app002",
+    "name": "Duolingo",
+    "developer": "Dev Inc.",
+    "downloads": "200.0K",
+    "category": "Education",
+    "rating": 4.1,
+    "description": "Learn languages with fun, bite-sized lessons.",
+    "features": [
+      "Feature A",
+      "Feature B",
+      "Feature C"
+    ],
+    "reviews": [
+      {
+        "user": "user1",
+        "rating": 2,
+        "comment": "user1 says: Great app!"
+      }
+    ],
+    "thumbnail": "https://i.ibb.co/35CjdG5z/Adobe-Stock-849512730-Preview.jpg",
+    "banner": "https://i.ibb.co/35CjdG5z/Adobe-Stock-849512730-Preview.jpg",
+    "editorsChoice": false
+  },
+  {
+    "id": "app003",
+    "name": "Khan Academy",
+    "developer": "Dev Inc.",
+    "downloads": "300.0K",
+    "category": "Education",
+    "rating": 4.2,
+    "description": "Free world-class education for anyone, anywhere.",
+    "features": [
+      "Feature A",
+      "Feature B",
+      "Feature C"
+    ],
+    "reviews": [
+      {
+        "user": "user2",
+        "rating": 3,
+        "comment": "user2 says: Great app!"
+      }
+    ],
+    "thumbnail": "https://i.ibb.co/Ngzqrmj9/Adobe-Stock-883663016.jpg",
+    "banner": "https://i.ibb.co/Ngzqrmj9/Adobe-Stock-883663016.jpg",
+    "editorsChoice": false
+  },
+  {
+    "id": "app004",
+    "name": "Quizlet",
+    "developer": "Dev Inc.",
+    "downloads": "400.0K",
+    "category": "Education",
+    "rating": 4.3,
+    "description": "Study smarter with flashcards and learning tools.",
+    "features": [
+      "Feature A",
+      "Feature B",
+      "Feature C"
+    ],
+    "reviews": [
+      {
+        "user": "user3",
+        "rating": 4,
+        "comment": "user3 says: Great app!"
+      }
+    ],
+    "thumbnail": "https://i.ibb.co/993ps5ym/Adobe-Stock-1146639476-Editorial-Use-Only.jpg",
+    "banner": "https://i.ibb.co/993ps5ym/Adobe-Stock-1146639476-Editorial-Use-Only.jpg",
+    "editorsChoice": true
+  },
+  {
+    "id": "app005",
+    "name": "Programming Hero",
+    "developer": "Dev Inc.",
+    "downloads": "500.0K",
+    "category": "Education",
+    "rating": 4.4,
+    "description": "Interactive learning platform for aspiring coders.",
+    "features": [
+      "Feature A",
+      "Feature B",
+      "Feature C"
+    ],
+    "reviews": [
+      {
+        "user": "user4",
+        "rating": 5,
+        "comment": "user4 says: Great app!"
+      }
+    ],
+    "thumbnail": "https://i.ibb.co/270tdFzr/Adobe-Stock-1409202620-Preview-Editorial-Use-Only.jpg",
+    "banner": "https://i.ibb.co/270tdFzr/Adobe-Stock-1409202620-Preview-Editorial-Use-Only.jpg",
+    "editorsChoice": true
+  },
+  {
+    "id": "app006",
+    "name": "Trello",
+    "developer": "Dev Inc.",
+    "downloads": "600.0K",
+    "category": "Productivity",
+    "rating": 4.0,
+    "description": "Project boards to manage work with your team.",
+    "features": [
+      "Feature A",
+      "Feature B",
+      "Feature C"
+    ],
+    "reviews": [
+      {
+        "user": "user5",
+        "rating": 1,
+        "comment": "user5 says: Great app!"
+      }
+    ],
+    "thumbnail": "https://i.ibb.co/XZbMmnZK/Adobe-Stock-1256208995.jpg",
+    "banner": "https://i.ibb.co/XZbMmnZK/Adobe-Stock-1256208995.jpg",
+    "editorsChoice": false
+  },
+  {
+    "id": "app007",
+    "name": "Google Keep",
+    "developer": "Dev Inc.",
+    "downloads": "700.0K",
+    "category": "Productivity",
+    "rating": 4.1,
+    "description": "Capture ideas quickly and organize them visually.",
+    "features": [
+      "Feature A",
+      "Feature B",
+      "Feature C"
+    ],
+    "reviews": [
+      {
+        "user": "user6",
+        "rating": 2,
+        "comment": "user6 says: Great app!"
+      }
+    ],
+    "thumbnail": "https://i.ibb.co/jvdSgt25/Adobe-Stock-1283586072-Editorial-Use-Only.jpg",
+    "banner": "https://i.ibb.co/jvdSgt25/Adobe-Stock-1283586072-Editorial-Use-Only.jpg",
+    "editorsChoice": false
+  },
+  {
+    "id": "app008",
+    "name": "Evernote",
+    "developer": "Dev Inc.",
+    "downloads": "800.0K",
+    "category": "Productivity",
+    "rating": 4.2,
+    "description": "Jot notes, scan documents, and manage your life.",
+    "features": [
+      "Feature A",
+      "Feature B",
+      "Feature C"
+    ],
+    "reviews": [
+      {
+        "user": "user7",
+        "rating": 3,
+        "comment": "user7 says: Great app!"
+      }
+    ],
+    "thumbnail": "https://i.ibb.co/CpYcG3dB/Adobe-Stock-1145212763.jpg",
+    "banner": "https://i.ibb.co/CpYcG3dB/Adobe-Stock-1145212763.jpg",
+    "editorsChoice": false
+  },
+  {
+    "id": "app009",
+    "name": "Slack",
+    "developer": "Dev Inc.",
+    "downloads": "900.0K",
+    "category": "Productivity",
+    "rating": 4.3,
+    "description": "Team communication and collaboration in one app.",
+    "features": [
+      "Feature A",
+      "Feature B",
+      "Feature C"
+    ],
+    "reviews": [
+      {
+        "user": "user8",
+        "rating": 4,
+        "comment": "user8 says: Great app!"
+      }
+    ],
+    "thumbnail": "https://i.ibb.co/kgymzgc6/Adobe-Stock-618138347.jpg",
+    "banner": "https://i.ibb.co/kgymzgc6/Adobe-Stock-618138347.jpg",
+    "editorsChoice": true
+  },
+  {
+    "id": "app010",
+    "name": "ClickUp",
+    "developer": "Dev Inc.",
+    "downloads": "1000.0K",
+    "category": "Productivity",
+    "rating": 4.4,
+    "description": "Plan and track projects with powerful workflows.",
+    "features": [
+      "Feature A",
+      "Feature B",
+      "Feature C"
+    ],
+    "reviews": [
+      {
+        "user": "user9",
+        "rating": 5,
+        "comment": "user9 says: Great app!"
+      }
+    ],
+    "thumbnail": "https://i.ibb.co/TBmn85PR/Adobe-Stock-693874386.jpg",
+    "banner": "https://i.ibb.co/TBmn85PR/Adobe-Stock-693874386.jpg",
+    "editorsChoice": true
+  },
+  {
+    "id": "app011",
+    "name": "Clash Royale",
+    "developer": "Dev Inc.",
+    "downloads": "1.1M",
+    "category": "Gaming",
+    "rating": 4.0,
+    "description": "Real-time strategy card game from Supercell.",
+    "features": [
+      "Feature A",
+      "Feature B",
+      "Feature C"
+    ],
+    "reviews": [
+      {
+        "user": "user10",
+        "rating": 1,
+        "comment": "user10 says: Great app!"
+      }
+    ],
+    "thumbnail": "https://i.ibb.co/NgzdqwZt/Adobe-Stock-632235823.jpg",
+    "banner": "https://i.ibb.co/NgzdqwZt/Adobe-Stock-632235823.jpg",
+    "editorsChoice": false
+  },
+  {
+    "id": "app012",
+    "name": "Among Us",
+    "developer": "Dev Inc.",
+    "downloads": "1.2M",
+    "category": "Gaming",
+    "rating": 4.1,
+    "description": "Play with friends in this online social deduction game.",
+    "features": [
+      "Feature A",
+      "Feature B",
+      "Feature C"
+    ],
+    "reviews": [
+      {
+        "user": "user11",
+        "rating": 2,
+        "comment": "user11 says: Great app!"
+      }
+    ],
+    "thumbnail": "https://i.ibb.co/tMsFV1zm/card-4.jpg",
+    "banner": "https://i.ibb.co/tMsFV1zm/card-4.jpg",
+    "editorsChoice": false
+  },
+  {
+    "id": "app013",
+    "name": "PUBG Mobile",
+    "developer": "Dev Inc.",
+    "downloads": "1.3M",
+    "category": "Gaming",
+    "rating": 4.2,
+    "description": "Battle royale shooter on mobile with realistic graphics.",
+    "features": [
+      "Feature A",
+      "Feature B",
+      "Feature C"
+    ],
+    "reviews": [
+      {
+        "user": "user12",
+        "rating": 3,
+        "comment": "user12 says: Great app!"
+      }
+    ],
+    "thumbnail": "https://i.ibb.co/rfLLXd71/card-3.jpg",
+    "banner": "https://i.ibb.co/rfLLXd71/card-3.jpg",
+    "editorsChoice": false
+  },
+  {
+    "id": "app014",
+    "name": "Candy Crush",
+    "developer": "Dev Inc.",
+    "downloads": "1.4M",
+    "category": "Gaming",
+    "rating": 4.3,
+    "description": "Match colorful candies in this addicting puzzle game.",
+    "features": [
+      "Feature A",
+      "Feature B",
+      "Feature C"
+    ],
+    "reviews": [
+      {
+        "user": "user13",
+        "rating": 4,
+        "comment": "user13 says: Great app!"
+      }
+    ],
+    "thumbnail": "https://i.ibb.co/rGngp3pH/card-2.jpg",
+    "banner": "https://i.ibb.co/rGngp3pH/card-2.jpg",
+    "editorsChoice": true
+  },
+  {
+    "id": "app015",
+    "name": "Asphalt 9",
+    "developer": "Dev Inc.",
+    "downloads": "1.5M",
+    "category": "Gaming",
+    "rating": 4.4,
+    "description": "High-speed racing with real cars and locations.",
+    "features": [
+      "Feature A",
+      "Feature B",
+      "Feature C"
+    ],
+    "reviews": [
+      {
+        "user": "user14",
+        "rating": 5,
+        "comment": "user14 says: Great app!"
+      }
+    ],
+    "thumbnail": "https://i.ibb.co/ds1vWJzQ/card-1.jpg",
+    "banner": "https://i.ibb.co/ds1vWJzQ/card-1.jpg",
+    "editorsChoice": true
+  }
+]

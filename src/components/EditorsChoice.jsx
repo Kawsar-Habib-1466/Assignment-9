@@ -1,29 +1,7 @@
 import React from 'react';
-import Editor1 from '@/assets/editor-1.jpg';
-import Editor2 from '@/assets/editor-2.jpg';
+import appsData from '@/data/apps_data.json'; // Make sure path is correct
 
-const editorsChoiceApps = [
-  {
-    id: 'editor1',
-    name: 'PhotoPro: Advanced Editor',
-    rating: 4.9,
-    downloads: '7.2M',
-    description:
-      'Transform your photos with professional-grade editing tools. Includes AI-powered enhancements, advanced filters, and creative effects that rival desktop software.',
-    thumbnail: Editor1,
-    tag: "Editor's Pick",
-  },
-  {
-    id: 'editor2',
-    name: 'BeatMaker: Music Studio',
-    rating: 4.8,
-    downloads: '5.8M',
-    description:
-      'Create professional music tracks on the go with this powerful mobile studio. Features include multi-track recording, virtual instruments, and studio-quality effects.',
-    thumbnail: Editor2,
-    tag: "Editor's Pick",
-  },
-];
+const editorsChoiceApps = appsData.filter(app => app.editorsChoice).slice(0, 2);
 
 const EditorsChoice = () => {
   return (
@@ -32,7 +10,7 @@ const EditorsChoice = () => {
         {/* Section Heading */}
         <div className="flex justify-between items-center mb-8">
           <h2 className="text-2xl font-bold text-gray-900">Editor's Choice</h2>
-          <a href="#" className="text-primary hover:text-primary/80 font-medium flex items-center">
+          <a href="/editors-choice" className="text-primary hover:text-primary/80 font-medium flex items-center">
             View all
             <span className="ml-1">
               <i className="ri-arrow-right-line" />
@@ -60,7 +38,7 @@ const EditorsChoice = () => {
               <div className="md:w-3/5 p-6">
                 <div className="flex items-center mb-3">
                   <span className="bg-primary/10 text-primary text-xs font-medium px-2 py-1 rounded-full">
-                    {app.tag}
+                    Editor's Pick
                   </span>
                 </div>
                 <h3 className="font-bold text-xl text-gray-900 mb-2">{app.name}</h3>

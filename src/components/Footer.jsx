@@ -66,7 +66,7 @@ const Footer = () => {
         <div className="pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center mb-4 md:mb-0">
             <div className="w-10 h-10 flex items-center justify-center bg-primary rounded-full text-white">
-              <i className="ri-app-store-line ri-lg"></i>
+             <img src="/Untitled design.svg" alt="" />
             </div>
             <span className="ml-2 font-pacifico text-2xl text-white">AppStore</span>
           </div>

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { auth } from '../firebase/firebase.config';
 import { createUserWithEmailAndPassword, updateProfile } from 'firebase/auth';
 import { useNavigate } from 'react-router-dom';
-
+import { toast } from 'react-toastify';
 const Register = () => {
   const [form, setForm] = useState({ name: '', email: '', password: '', photoURL: '' });
   const navigate = useNavigate();
@@ -16,16 +16,16 @@ const Register = () => {
     const { name, email, password, photoURL } = form;
 
     if (!/[A-Z]/.test(password) || !/[a-z]/.test(password) || password.length < 6) {
-      return alert("Password must have uppercase, lowercase, and be at least 6 characters.");
+      return toast("Password must have uppercase, lowercase, and be at least 6 characters.");
     }
 
     try {
       const userCredential = await createUserWithEmailAndPassword(auth, email, password);
       await updateProfile(userCredential.user, { displayName: name, photoURL });
-      alert("Registration successful!");
+      toast("Registration successful!");
       navigate('/');
     } catch (err) {
-      alert(err.message);
+      toast(err.message);
     }
   };
 
