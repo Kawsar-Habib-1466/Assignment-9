@@ -7,6 +7,7 @@ import Footer from '../components/Footer';
 import EducationApps from '../components/EducationApps';
 import { toast } from 'react-toastify';
 const Home = () => {
+  
   return (
     <div>
       <HeroSlider />
@@ -16,8 +17,8 @@ const Home = () => {
       <ProductivityApps />
      
       <EditorsChoice />
-      toast.success('Welcome to AppStore!');
-            {/* Other sections here */}
+      
+      
       
     </div>
   );
