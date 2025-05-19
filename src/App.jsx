@@ -10,6 +10,7 @@ import PrivateRoute from "./components/PrivateRoute"; // 👈 fixed path
 import CategoryViewAll from "./pages/CategoryViewAll";
 import Footer from "./components/Footer";
 import MyProfile from "./pages/MyProfile";
+import NotFound from "./pages/NotFound";
 
 const App = () => {
   return (
@@ -31,6 +32,7 @@ const App = () => {
           />
           <Route path="/category/:categoryName" element={<CategoryViewAll />} />
           <Route path="/profile" element={<MyProfile />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
       <Footer />
