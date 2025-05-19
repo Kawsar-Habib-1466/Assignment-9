@@ -1,12 +1,53 @@
-# React + Vite
+# 📱 AppStore
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and interactive web app for discovering, reviewing, and installing apps — built with React, Tailwind CSS, Firebase Auth, and deployed on Netlify.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live URL
 
-## Expanding the ESLint configuration
+🔗 [View Live App on Netlify](https://appstore-kawsar.netlify.app/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🎯 Purpose
+
+The goal of this project is to simulate a modern app store experience, allowing users to:
+
+- Browse trending, categorized, and editor-picked apps
+- View app details with reviews and ratings
+- Sign in securely via email/password or Google
+- Submit reviews and install/uninstall apps
+- Explore a responsive, mobile-friendly UI
+
+---
+
+## ✨ Key Features
+
+- 🔐 **Firebase Authentication**
+- 📁 **Categorized browsing**: Education, Productivity, Gaming
+- 🌟 **Editor’s Choice** picks
+- 🔎 **Dynamic routing** for app details
+- 🧠 **User context management**
+- 💬 **Review system** with rating
+- 🛠️ **Install/Uninstall simulation**
+- 🧭 **404 page + protected routes**
+- 🔄 **Toast notifications** for feedback
+- 🌈 **Tailwind CSS styling**
+- 📦 **Responsive layout with reusable components**
+
+---
+
+## 🔧 Tech Stack & NPM Packages
+
+- **React** (Router, Context API)
+- **Vite** (for fast build)
+- **Tailwind CSS** (for styling)
+- **Firebase** (Auth only)
+- **React Toastify** (for notifications)
+- **Remixicon** (icon set)
+- **React Router DOM** (routing)
+
+### Installed via npm:
+```bash
+npm install react-router-dom firebase react-toastify remixicon
