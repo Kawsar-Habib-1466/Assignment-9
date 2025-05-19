@@ -1,27 +1,44 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, useLocation, matchRoutes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Register from './pages/Register';
-// Pages
 import Home from "./pages/Home";
 import Login from "./pages/Login";
-import AppDetails from "./pages/AppDetails"; // 👈 create this if not yet
-import PrivateRoute from "./components/PrivateRoute"; // 👈 fixed path
+import AppDetails from "./pages/AppDetails";
+import PrivateRoute from "./components/PrivateRoute";
 import CategoryViewAll from "./pages/CategoryViewAll";
 import Footer from "./components/Footer";
 import MyProfile from "./pages/MyProfile";
 import NotFound from "./pages/NotFound";
 
-const App = () => {
+// Define valid route patterns
+const routeDefinitions = [
+  { path: "/" },
+  { path: "/login" },
+  { path: "/register" },
+  { path: "/profile" },
+  { path: "/category/:categoryName" },
+  { path: "/app/:id" },
+];
+
+const AppRoutes = () => {
+  const location = useLocation();
+
+  // Detect if current route is NOT matched (404)
+  const is404 = !matchRoutes(routeDefinitions, location);
+
+  // Hide footer on 404 and on login/register
+  // const hideFooterRoutes = ["/login", "/register"];
+  const hideFooter = is404;
+
   return (
-    <BrowserRouter>
+    <>
       <Navbar />
       <main className="min-h-screen px-4 py-6">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
-          {/* ✅ Protected route for app details */}
           <Route
             path="/app/:id"
             element={
@@ -32,12 +49,18 @@ const App = () => {
           />
           <Route path="/category/:categoryName" element={<CategoryViewAll />} />
           <Route path="/profile" element={<MyProfile />} />
-          <Route path="*" element={<NotFound />} />
+          <Route path="*" element={<NotFound />} /> {/* Catch-all for 404 */}
         </Routes>
       </main>
-      <Footer />
-    </BrowserRouter>
+      {!hideFooter && <Footer />}
+    </>
   );
 };
+
+const App = () => (
+  <BrowserRouter>
+    <AppRoutes />
+  </BrowserRouter>
+);
 
 export default App;
